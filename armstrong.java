@@ -11,7 +11,7 @@ public class NewClass {
         int x=0;
         Scanner sc=new Scanner(System.in);
         int h=sc.nextInt();
-        
+        int n=h;
         while(h!=0)
          {
           
@@ -24,8 +24,10 @@ public class NewClass {
      
             }
          
-         
-         System.out.println(x);
+         if(n==x)
+         System.out.println("No. is armstrong");
+         else
+         System.out.println("No. is not armstrong");
         }
         
         
